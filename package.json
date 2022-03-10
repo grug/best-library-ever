@@ -1,10 +1,13 @@
 {
   "name": "best-library-ever",
-  "version": "1.0.1",
-  "main": "index.js",
+  "version": "1.0.2",
+  "main": "dist/index.js",
   "repository": "git@github.com:grug/best-library-ever.git",
   "author": "Dave Cooper <dave@davecooper.dev>",
   "license": "MIT",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "build": "rm -rf dist && webpack"
   },
